@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <title>Mini Shopee</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
-    
+    <!-- Topo da página -->
+    <header class="header">
+        <div class="logo">MiniShopee</div>
+        <input type="text" class="search-box" placeholder="Buscar produtos">
+        <button class="search-btn">🔍</button>
+    </header>
+
+    <!-- Menu de categorias lateral -->
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li>Eletrônicos</li>
+                <li>Roupas</li>
+                <li>Casa e Jardim</li>
+                <li>Beleza</li>
+                <li>Brinquedos</li>
+                <li>Mais...</li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo principal -->
+        <main class="main-content">
+            <!-- Banner -->
+            <div class="banner">
+                <img src="images/banner.jpg" alt="Banner promocional">
+            </div>
+
+            <!-- Lista de produtos -->
+            <section class="products">
+                <div class="product-card">
+                    <img src="images/produto1.jpg" alt="Produto 1">
+                    <h3>Fone de Ouvido Bluetooth</h3>
+                    <p class="price">R$ 59,90</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/produto2.jpg" alt="Produto 2">
+                    <h3>Camisa Estilosa</h3>
+                    <p class="price">R$ 39,90</p>
+                    <button>Comprar</button>
+                </div>
+                <!-- Adicione mais produtos aqui -->
+            </section>
+        </main>
+    </div>
 </body>
 </html>
